@@ -134,7 +134,7 @@ body {
 
 /* "stranger." — bright warm gold */
 .headline .soft {
-  color: #e8c46a;
+  color: rgba(200,165,75,0.28);
   display: block;
 }
 
