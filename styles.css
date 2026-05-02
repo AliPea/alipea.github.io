@@ -213,7 +213,7 @@ body {
   font-family: 'DM Mono', monospace;
   font-size: 9px;
   letter-spacing: 0.18em;
-  color: rgba(210,175,90,0.55);
+  color: #8a7a4a;
   text-transform: lowercase;
 }
 
@@ -310,6 +310,7 @@ body {
   align-items: flex-end;
   opacity: 0;
   animation: up 0.8s ease 1.4s forwards;
+  margin-top: -60px;
 }
 
 .bottom-right {
