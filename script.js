@@ -10,12 +10,8 @@ function submit() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  var btn = document.getElementById('submitBtn');
-  var input = document.getElementById('emailInput');
-
-  btn.addEventListener('click', submit);
-
-  input.addEventListener('keydown', function (e) {
+  document.getElementById('submitBtn').addEventListener('click', submit);
+  document.getElementById('emailInput').addEventListener('keydown', function (e) {
     if (e.key === 'Enter') submit();
   });
 });

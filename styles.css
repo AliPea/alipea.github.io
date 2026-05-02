@@ -18,7 +18,7 @@ body {
   overflow: hidden;
 }
 
-/* Background glows */
+/* ── Background glows ── */
 .bg-glow {
   position: fixed;
   bottom: -80px;
@@ -43,7 +43,7 @@ body {
   z-index: 0;
 }
 
-/* Page wrapper — centered, max width */
+/* ── Centered page wrapper ── */
 .page {
   min-height: 100vh;
   display: flex;
@@ -57,7 +57,7 @@ body {
   z-index: 2;
 }
 
-/* Top bar */
+/* ── Top bar ── */
 .top {
   display: flex;
   justify-content: space-between;
@@ -66,10 +66,10 @@ body {
   animation: up 0.8s ease 0.1s forwards;
 }
 
-/* Brand name — editorial serif */
+/* Brand name — Playfair Display editorial serif */
 .wordmark {
   font-family: 'Playfair Display', serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   font-style: italic;
   letter-spacing: 0.12em;
@@ -79,10 +79,11 @@ body {
 .wordmark span {
   font-style: normal;
   font-weight: 400;
-  color: rgba(220,185,100,0.55);
-  letter-spacing: 0.18em;
-  font-size: 11px;
-  margin-left: 6px;
+  color: rgba(220,185,100,0.5);
+  letter-spacing: 0.22em;
+  font-size: 10px;
+  margin-left: 8px;
+  font-family: 'DM Mono', monospace;
 }
 
 .status {
@@ -104,7 +105,7 @@ body {
   animation: blink 2.5s ease-in-out infinite;
 }
 
-/* Middle */
+/* ── Middle ── */
 .middle {
   padding: 20px 0;
 }
@@ -131,7 +132,7 @@ body {
   margin-bottom: 4px;
 }
 
-/* "stranger." — bright gold */
+/* "stranger." — bright warm gold */
 .headline .soft {
   color: #e8c46a;
   display: block;
@@ -159,7 +160,7 @@ body {
   max-width: 480px;
 }
 
-/* Quote */
+/* ── Quote ── */
 .quote-center {
   max-width: 420px;
   margin-bottom: 44px;
@@ -195,7 +196,7 @@ body {
   text-transform: uppercase;
 }
 
-/* Form */
+/* ── Form ── */
 .form-wrap {
   opacity: 0;
   animation: up 0.8s ease 1s forwards;
@@ -281,7 +282,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* Bottom */
+/* ── Bottom ── */
 .bottom {
   display: flex;
   justify-content: flex-end;
@@ -327,7 +328,7 @@ body {
   text-transform: uppercase;
 }
 
-/* Animations */
+/* ── Animations ── */
 @keyframes up {
   from { opacity: 0; transform: translateY(14px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -342,7 +343,7 @@ body {
   50%       { opacity: 0.2; }
 }
 
-/* Mobile */
+/* ── Mobile ── */
 @media (max-width: 640px) {
   .page { padding: 28px 24px; }
   .headline { font-size: clamp(52px, 16vw, 80px); }
