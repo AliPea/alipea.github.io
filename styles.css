@@ -10,7 +10,7 @@ html, body {
 
 body {
   min-height: 100vh;
-  background: #0e0c09;
+  background: #1c1a16;
   display: flex;
   flex-direction: column;
   font-family: 'Cormorant Garamond', serif;
@@ -49,7 +49,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 860px;
+  max-width: 680px;
   width: 100%;
   margin: 0 auto;
   padding: 36px 48px;
