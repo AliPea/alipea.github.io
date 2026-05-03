@@ -109,7 +109,7 @@ body {
 
 /* ── Middle ── */
 .middle {
-  padding: 12px 0;
+  padding: 12px 0 0 0;
   display: flex;
   flex-direction: column;
   gap: 0;
@@ -148,7 +148,7 @@ body {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 28px;
   color: rgba(235,195,100,0.82);
   letter-spacing: 0.05em;
   margin-bottom: 32px;
@@ -202,10 +202,18 @@ body {
 
 .quote-attr {
   font-family: 'DM Mono', monospace;
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.22em;
   color: rgba(210,175,90,0.45);
   text-transform: uppercase;
+}
+
+.quote-disruptor {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  line-height: 1;
+  color: rgba(210,175,90,0.16);
+  letter-spacing: 0.06em;
 }
 
 /* ── Form ── */
@@ -216,10 +224,8 @@ body {
 }
 
 .form-intro {
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
-  font-weight: 300;
-  font-size: 16px;
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
   color: rgba(235,195,100,0.65);
   letter-spacing: 0.04em;
   margin-bottom: 8px;
@@ -227,11 +233,11 @@ body {
 
 .form-label {
   font-family: 'DM Mono', monospace;
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.22em;
   color: rgba(210,175,90,0.38);
   text-transform: uppercase;
-  margin-bottom: 11px;
+  /* margin-bottom: 11px; */
 }
 
 .form-row {
